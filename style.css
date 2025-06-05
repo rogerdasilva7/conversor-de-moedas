@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #1F1F1F;
+}
+:root{
+    --body-bg: #343434;
+    --title: #B4B4B4
+}
+.arrow-img, .start-convert{
+    max-width: 35px;
+    background-color: var(--title);
+    border-radius: 50%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+.space{
+    margin-top: 35px;
+}
+.money-img{
+    max-width: 60px;
+}
+.main-container{
+    background-color: var(--body-bg);
+    max-width: 600px;
+    width: 100%;
+    height: 420px;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+.flex-title h1{
+    color: var(--title);
+    font-weight: 400;
+    font-size: 30px;
+}
+label{
+    color: var(--title);
+    font-weight: 400;
+}
+.flex-title{
+    display: flex;
+    align-items: center;
+}
+.box-convert{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.currency-value{
+    display: flex;
+    flex-direction: column;
+}
+.convert-button{
+    width: 90px;
+    color: var(--title);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #9f76f9a4;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+.convert-button:hover{
+    background-color: #A076F9;
+    color: var(--body-bg);
+    transition: 0.4s ease-in-out;
+}
+.button-flex{
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+.container-value{
+    width: 100%;
+    margin-top: 20px;
+}
+#value{
+    width: 100%;
+    height: 42px;
+    border-radius: 5px;
+    border: 1px solid var(--title);
+    background-color: var(--body-bg);
+    color: var(--title);
+    font-size: 15px;
+    outline: none;
+}
+
+#currency-to, #currency-from{
+    width: 15em;
+    height: 35px;
+    border-radius: 5px;
+    background-color: var(--body-bg);
+    border: 1px solid var(--title);
+    color: var(--title);
+}

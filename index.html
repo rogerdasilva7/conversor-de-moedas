@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de Moedas</title>
+</head>
+<body>
+    <main class="main-container">
+        <section class="flex-title">
+            <h1>Conversor de Moedas</h1>
+            <img src="assets/money-icon.png" alt="Money Bag Icon" class="money-img">
+        </section>
+        <section class="box-convert">
+            <div class="flex-container">
+                <label for="from"> De: </label> <br>
+                <select name="from" id="currency-from">
+                    <option value="BRL">BRL</option>
+                    <option value="USD">USD</option>
+                    <option value="GBP">GBP</option>
+                    <option value="EUR">EUR</option>
+                </select>
+            </div>
+            <div class="space">
+                <button class="start-convert"><img src="assets/arrows-icon.png" alt="Arrows Icon" class="arrow-img"></button>
+            </div>
+            <div class="flex-container">
+                <label for="to"> Para: </label> <br>
+                <select name="to" id="currency-to"> <br>
+                    <option value="USD">USD</option>
+                    <option value="BRL">BRL</option>
+                    <option value="GBP">GBP</option>
+                    <option value="EUR">EUR</option>
+                </select>
+            </div>
+        </section>
+        <section class="currency-value">
+            <div class="container-value">
+                <label for="value"> Valor: </label> <br>
+                <input type="number" name="convert-value" id="value">
+            </div>
+            <div class="button-flex">
+                <button class="convert-button">Converter</button>
+            </div>
+        </section>
+        <p class="result-conversion"></p>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
