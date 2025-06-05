@@ -10,12 +10,12 @@ O usuário escolhe as moedas de origem e destino, digita o valor que deseja conv
 - Interface simples e responsiva
 - Atualização instantânea do resultado após a conversão
 
-## 🖼️ Preview
-
-![conversor](image.png)
-
 ## 🛠️ Tecnologias utilizadas
 
 - HTML5
 - CSS3
 - JavaScript
+
+## 📸 Imagem do projeto
+
+![conversor](image.png)
