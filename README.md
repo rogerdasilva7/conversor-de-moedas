@@ -6,7 +6,7 @@ O usuário escolhe as moedas de origem e destino, digita o valor que deseja conv
 ## 🚀 Funcionalidades
 
 - Seleção da moeda de origem e destino
-- Conversão baseada em taxas pré-definidas ou em tempo real (dependendo da implementação)
+- Conversão baseada em taxas pré-definidas
 - Interface simples e responsiva
 - Atualização instantânea do resultado após a conversão
 
