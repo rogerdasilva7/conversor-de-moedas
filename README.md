@@ -12,8 +12,8 @@ O usuário escolhe as moedas de origem e destino, digita o valor que deseja conv
 
 ## 🛠️ Tecnologias utilizadas
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 
 ## 📸 Imagem do projeto
